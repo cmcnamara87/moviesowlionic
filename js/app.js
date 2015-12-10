@@ -13,13 +13,14 @@ angular.module('moviesowlApp', ['ionic',
     'angulartics',
     'angulartics.google.analytics',
     'angularMoment',
-    'ion-affix',
+    'ion-sticky',
     'ngIOS9UIWebViewPatch',
     'templates'
 ])
 
 .run(function($ionicPlatform, amMoment, $rootScope, ENV, $document, $http, craigalytics, autoupdate) {
     amMoment.changeLocale('en');
+    window.BOOTSTRAP_OK = true;
     $rootScope.ENV = ENV;
 
 
@@ -119,4 +120,4 @@ setTimeout(function() {
         console.log('bootstrapping now');
         angular.bootstrap(document, ['moviesowlApp']);
     });
-}, 0);
+}, 2000);
