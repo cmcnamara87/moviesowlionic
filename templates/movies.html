@@ -24,6 +24,9 @@
             <div style="height:20px;background-color:white;width:{{progressWidth}}%"></div>
         </div>
 
+        <div class="item">
+            {{ autoupdate.state }}
+        </div>
 
         <div ng-hide="hasNoMovies">
             <div ng-repeat="group in groups">

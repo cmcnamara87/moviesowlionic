@@ -62,7 +62,7 @@
         },
         "js_app.js": {
             "filename": "js/app.js",
-            "version": "e0ee7ff310f9e695e03c6f75251f13bcf5b73fa3d2537c0c8373d4e329f908b9"
+            "version": "36e3a001c9cc6238ff292f232e32f41d92109a9bd50981ab5889fd5672c4cf0d"
         },
         "js_services_showingsdataservice.js": {
             "filename": "js/services/showingsdataservice.js",
@@ -106,7 +106,7 @@
         },
         "js_templates.js": {
             "filename": "js/templates.js",
-            "version": "0bc64d8124f7317607e6ad1a5099a015baf614a4fb1d91df5243944306b7900b"
+            "version": "65302445ca3ad14a65983471aafb2bcf38096f014deb3b67007e85e647a6d26b"
         },
         "js_services.js": {
             "filename": "js/services.js",
@@ -130,7 +130,7 @@
         },
         "js_autoupdate.service.js": {
             "filename": "js/autoupdate.service.js",
-            "version": "9ded852f8415460e4073b9f4ef741c6db75ad11e74bed3028c19e428386ef48c"
+            "version": "5c3c47a2e0ffcda230cc1bf74ed3cfecc5f4beaa44e0a2d2e396e2326562b5f4"
         },
         "js_angular-ios9-uiwebview.js": {
             "filename": "js/angular-ios9-uiwebview.js",

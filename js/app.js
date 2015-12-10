@@ -18,11 +18,12 @@ angular.module('moviesowlApp', ['ionic',
     'templates'
 ])
 
-.run(function($ionicPlatform, amMoment, $rootScope, ENV, $document, $http, craigalytics) {
+.run(function($ionicPlatform, amMoment, $rootScope, ENV, $document, $http, craigalytics, autoupdate) {
     amMoment.changeLocale('en');
     $rootScope.ENV = ENV;
 
 
+        $rootScope.autoupdate = autoupdate;
     console.log(ENV);
 
     craigalytics.register().then(function() {
