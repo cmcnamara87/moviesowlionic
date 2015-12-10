@@ -1,5 +1,9 @@
 {
     "files": {
+        "css_ionic.app.css": {
+            "filename": "css/ionic.app.css",
+            "version": "52fb37feaf2b73b4fa42f3dc663a5b66031785c759e16bb17333d668c0ffa649"
+        },
         "lib_angular_angular.js": {
             "filename": "lib/angular/angular.js",
             "version": "9a30224971ba19d73b34a1de0ffff57fa3561367f477fe81d62a17ce4b12a5aa"
@@ -131,13 +135,10 @@
         "js_angular-ios9-uiwebview.js": {
             "filename": "js/angular-ios9-uiwebview.js",
             "version": "e488ca45455cbf2dd07ec2ad081681ad6981ee1d4a7f661e4c6a4b3e749907a2"
-        },
-        "css_ionic.app.css": {
-            "filename": "css/ionic.app.css",
-            "version": "52fb37feaf2b73b4fa42f3dc663a5b66031785c759e16bb17333d668c0ffa649"
         }
     },
     "load": [
+        "css/ionic.app.css",
         "lib/angular/angular.js",
         "lib/angular-animate/angular-animate.js",
         "lib/angular-sanitize/angular-sanitize.js",
@@ -170,8 +171,7 @@
         "js/controllers.js",
         "js/configuration.js",
         "js/autoupdate.service.js",
-        "js/angular-ios9-uiwebview.js",
-        "css/ionic.app.css"
+        "js/angular-ios9-uiwebview.js"
     ],
     "root": "./"
 }
