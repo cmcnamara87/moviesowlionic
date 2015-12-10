@@ -1,0 +1,137 @@
+{
+    "files": {
+        "lib_lodash_lodash.js": {
+            "filename": "lib/lodash/lodash.js",
+            "version": "31ef498e961eaee57b5458cf0b6929da737338eb37a371f0fa720e7ba15db0fb"
+        },
+        "lib_angular_angular.js": {
+            "filename": "lib/angular/angular.js",
+            "version": "9a30224971ba19d73b34a1de0ffff57fa3561367f477fe81d62a17ce4b12a5aa"
+        },
+        "lib_waypoints_lib_noframework.waypoints.min.js": {
+            "filename": "lib/waypoints/lib/noframework.waypoints.min.js",
+            "version": "6094c224c0e0f2dad7f3251d25d42df0c004db3672b73de8afa5457092c9f67d"
+        },
+        "lib_SHA-1_sha1.js": {
+            "filename": "lib/SHA-1/sha1.js",
+            "version": "3c58502e02b97ccd9c549b25700984c3548d54757287f7a265ee471b7e73efcb"
+        },
+        "lib_moment_moment.js": {
+            "filename": "lib/moment/moment.js",
+            "version": "330b77f348bc97849800b9f3af7d1fe52fb6e145525ad494149d7a202c0c3cbf"
+        },
+        "lib_ion-affix_ion-affix.js": {
+            "filename": "lib/ion-affix/ion-affix.js",
+            "version": "4a4359aaca0db754733fbd6cecfc4bde64ae4140732edb3f1e6378c510b18969"
+        },
+        "lib_angulartics_src_angulartics.js": {
+            "filename": "lib/angulartics/src/angulartics.js",
+            "version": "296020179de9796fc3da856de5d29038bdf072763c5266f9b83327ee4b4cf6a0"
+        },
+        "lib_angulartics-google-analytics_lib_angulartics-google-analytics.js": {
+            "filename": "lib/angulartics-google-analytics/lib/angulartics-google-analytics.js",
+            "version": "d11ce495076c02d24232fe1a22f200cda67d18310f00144aade2ac9cce61f6e0"
+        },
+        "lib_angular-moment_angular-moment.js": {
+            "filename": "lib/angular-moment/angular-moment.js",
+            "version": "44c05e91c516897260bd895e828f1349614d4d3ce6ad14ad976d7f461a4fc176"
+        },
+        "js_app.js": {
+            "filename": "js/app.js",
+            "version": "90e05d59d8155388def1ee5205f8ad93dfe58bf7b655abbab1caeeb34c38779d"
+        },
+        "js_angular-ios9-uiwebview.js": {
+            "filename": "js/angular-ios9-uiwebview.js",
+            "version": "e488ca45455cbf2dd07ec2ad081681ad6981ee1d4a7f661e4c6a4b3e749907a2"
+        },
+        "js_configuration.js": {
+            "filename": "js/configuration.js",
+            "version": "ae3baed888a0c7155d87ad98cece8284be65669d0342e1676a0804d08133ebe2"
+        },
+        "js_controllers.js": {
+            "filename": "js/controllers.js",
+            "version": "6f8058ab6d99b6f08de4a562cd2b2d2181f8dc850b9a5ab971e9aa57a9823e56"
+        },
+        "js_craigalytics.service.js": {
+            "filename": "js/craigalytics.service.js",
+            "version": "248bd1a526cfe113e41cc114206b2319c8fbd0f849ff6919d0bd9f2ed4dcf0fa"
+        },
+        "js_services.js": {
+            "filename": "js/services.js",
+            "version": "617d37697d3eb2fd4f86f9af10e2e0e5b8eced7d7fbcea4c8e9a3ba6577df5e1"
+        },
+        "js_templates.js": {
+            "filename": "js/templates.js",
+            "version": "0bc64d8124f7317607e6ad1a5099a015baf614a4fb1d91df5243944306b7900b"
+        },
+        "js_tracking.js": {
+            "filename": "js/tracking.js",
+            "version": "888d98a0804b9058d2a656c767b5c1f84b1e2cce9df1f97ee6441b43fd73e391"
+        },
+        "js_controllers_cinemas.js": {
+            "filename": "js/controllers/cinemas.js",
+            "version": "f6523075ee0ca4f4d131e490b6bd859905ef22e468a44de29e0c06d05a20888e"
+        },
+        "js_controllers_cities.js": {
+            "filename": "js/controllers/cities.js",
+            "version": "67daeb7b88771440439d1d1ba0163dc51686aeb3a022b64b105235af49b7660e"
+        },
+        "js_controllers_moviedetails.js": {
+            "filename": "js/controllers/moviedetails.js",
+            "version": "70db47cab3d69c8e4498f752124ad7f909ab31e7c01b43e0702aacdf83f2c277"
+        },
+        "js_controllers_movies.js": {
+            "filename": "js/controllers/movies.js",
+            "version": "81b993636f037fb6d4442f824e116d84ab6d7d345294d5f13609833fed55122e"
+        },
+        "js_controllers_seats.js": {
+            "filename": "js/controllers/seats.js",
+            "version": "578d8ce29ee41efbc12e87673ade61815d19358f4e4b7f7ae3c73cc8b5e8dfb3"
+        },
+        "js_controllers_showings.js": {
+            "filename": "js/controllers/showings.js",
+            "version": "38240860f0a4dc984a9c88894bf6ebe6afaba99bc4a8df0edfb94a6be75bba06"
+        },
+        "js_services_cinemaslist.js": {
+            "filename": "js/services/cinemaslist.js",
+            "version": "a7016d559d75f6343e178bdddb300824d36dae624704a8ca25cf66c9fc03c6c2"
+        },
+        "js_services_selectedmovieservice.js": {
+            "filename": "js/services/selectedmovieservice.js",
+            "version": "a8fb2fee949c95eb7970f39937b2429c85bd8f26dd3a95393ddcdb891926b9fe"
+        },
+        "js_services_showingsdataservice.js": {
+            "filename": "js/services/showingsdataservice.js",
+            "version": "b1ebce291b6813f7f004636cd0ca074c8a9fc4cddedaf6bf161eaaef8d37255b"
+        }
+    },
+    "load": [
+        "lib/lodash/lodash.js",
+        "lib/angular/angular.js",
+        "lib/waypoints/lib/noframework.waypoints.min.js",
+        "lib/SHA-1/sha1.js",
+        "lib/moment/moment.js",
+        "lib/ion-affix/ion-affix.js",
+        "lib/angulartics/src/angulartics.js",
+        "lib/angulartics-google-analytics/lib/angulartics-google-analytics.js",
+        "lib/angular-moment/angular-moment.js",
+        "js/app.js",
+        "js/angular-ios9-uiwebview.js",
+        "js/configuration.js",
+        "js/controllers.js",
+        "js/craigalytics.service.js",
+        "js/services.js",
+        "js/templates.js",
+        "js/tracking.js",
+        "js/controllers/cinemas.js",
+        "js/controllers/cities.js",
+        "js/controllers/moviedetails.js",
+        "js/controllers/movies.js",
+        "js/controllers/seats.js",
+        "js/controllers/showings.js",
+        "js/services/cinemaslist.js",
+        "js/services/selectedmovieservice.js",
+        "js/services/showingsdataservice.js"
+    ],
+    "root": "./"
+}
