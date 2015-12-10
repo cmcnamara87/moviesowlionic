@@ -14,7 +14,8 @@ angular.module('moviesowlApp', ['ionic',
     'angulartics.google.analytics',
     'angularMoment',
     'ion-affix',
-    'ngIOS9UIWebViewPatch'
+    'ngIOS9UIWebViewPatch',
+    'templates'
 ])
 
 .run(function($ionicPlatform, amMoment, $rootScope, ENV, $document, $http, craigalytics) {
