@@ -112,3 +112,10 @@ angular.module('moviesowlApp', ['ionic',
             controller: 'SeatsCtrl'
         });
 });
+
+setTimeout(function() {
+    angular.element(document).ready(function() {
+        console.log('bootstrapping now');
+        angular.bootstrap(document, ['moviesowlApp']);
+    });
+}, 0);
