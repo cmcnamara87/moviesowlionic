@@ -56,7 +56,7 @@ angular.module('moviesowlApp')
             var ref = cordova.InAppBrowser.open(url, '_blank', 'location=yes');
             ref.addEventListener('loadstop', function() {
                 console.log('load stop reached');
-                ref.executeScript({code: "$('#MemberCards').val('800012851988');"});
+                ref.executeScript({code: "$('.continue').get(0).click(function() { $('#MemberCards').val('800012851988'); });"});
             });
         }
 
