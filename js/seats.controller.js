@@ -57,13 +57,11 @@ angular.module('moviesowlApp')
         }
 
         function buyTickets() {
-            var url = $scope.session.tickets_url;
-            console.log(url);
-            window.open(url);
+            window.open($scope.session.tickets_url, '_blank');
         }
 
         function buyTelstraTickets() {
             var url = 'https://www.my.telstra.com.au/myaccount/home?goto=https%3A%2F%2Fwww.my.telstra.com.au%2Fmyaccount%2Floyalty-offers-consumer';
-            window.open(url);
+            window.open(url, '_blank');
         }
     });

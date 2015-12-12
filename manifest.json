@@ -1,12 +1,12 @@
 {
     "files": {
-        "lib_ionic_js_ionic.bundle.js": {
-            "filename": "lib/ionic/js/ionic.bundle.js",
-            "version": "2a6430b20dc9ce78b5595607cc571456ba3a5d13897ffe7e051f1f80a6db6f4c"
-        },
         "css_ionic.app.css": {
             "filename": "css/ionic.app.css",
             "version": "12c77e6bf4cc07fc001e92493ff3ab32277813073c39f7a251bf9707a6bf864c"
+        },
+        "lib_ionic_js_ionic.bundle.js": {
+            "filename": "lib/ionic/js/ionic.bundle.js",
+            "version": "2a6430b20dc9ce78b5595607cc571456ba3a5d13897ffe7e051f1f80a6db6f4c"
         },
         "lib_ionic_fonts_ionicons.eot": {
             "filename": "lib/ionic/fonts/ionicons.eot",
@@ -34,7 +34,7 @@
         },
         "js_templates.js": {
             "filename": "js/templates.js",
-            "version": "f17f6f33b10a2ec090c2b3e8c400f2b6dff898e5ba90556fb955a18ca0d9a373"
+            "version": "6dbdcb80f077a2c4b653e3da957938f8942c00aab4dcc7339f0f3e26a681ba36"
         },
         "js_configuration.js": {
             "filename": "js/configuration.js",
@@ -74,7 +74,7 @@
         },
         "js_seats.controller.js": {
             "filename": "js/seats.controller.js",
-            "version": "568aa96fc385322e4c57cf31094a79ce5b4508391476bca3a059853087714626"
+            "version": "87c1b45621b5a5437effdd41929cb9bee08b82ef39fe3e39a7732e0f356e3dcd"
         },
         "js_selectedmovieservice.js": {
             "filename": "js/selectedmovieservice.js",
@@ -94,8 +94,8 @@
         }
     },
     "load": [
-        "lib/ionic/js/ionic.bundle.js",
         "css/ionic.app.css",
+        "lib/ionic/js/ionic.bundle.js",
         "lib/ionic/fonts/ionicons.eot",
         "lib/ionic/fonts/ionicons.svg",
         "lib/ionic/fonts/ionicons.ttf",

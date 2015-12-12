@@ -25,13 +25,11 @@
         </div>
         <div class="padding" ng-show="seatingPlan">
             <a class="button button-block button-positive"
-               ng-href="{{ session.tickets_url }}"
-               target="_blank">
+               ng-click="buyTickets()">
                 Buy Tickets
             </a>
             <a class="button button-block button-positive"
-               ng-href="https://www.my.telstra.com.au/myaccount/home?goto=https%3A%2F%2Fwww.my.telstra.com.au%2Fmyaccount%2Floyalty-offers-consumer"
-               target="_blank">
+               ng-click="buyTelstraTickets()">
                 Buy Telstra Tickets ($11)
             </a>
             <p style="color:white;text-align: center">
