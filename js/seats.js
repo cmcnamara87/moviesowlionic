@@ -11,6 +11,7 @@ angular.module('moviesowlApp')
     .controller('SeatsCtrl', function(ENV, $scope, $http, $stateParams, showingsDataService, selectedMovieService,
                                       $timeout) {
 
+        console.log('new seats controller');
         //$http.get('http://api.moviesowl.com/v1/showings/' + $stateParams.showId).then(function(response) {
         //  $http.get('http://api.moviesowl.com/v1/showings/141061').then(function(response) {
 
@@ -58,11 +59,12 @@ angular.module('moviesowlApp')
 
         function buyTickets() {
             var url = $scope.session.tickets_url;
-            console.log(url);
+            console.log('buy tickets apache too');
             cordova.InAppBrowser.open('http://apache.org', '_blank', 'location=yes');
         }
 
         function buyTelstraTickets() {
+            console.log('buy tickets apache');
             cordova.InAppBrowser.open('http://apache.org', '_blank', 'location=yes');
             //var url = 'https://www.my.telstra.com.au/myaccount/home?goto=https%3A%2F%2Fwww.my.telstra.com.au%2Fmyaccount%2Floyalty-offers-consumer';
             //window.open(url, '_blank');
