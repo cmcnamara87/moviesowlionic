@@ -53,7 +53,10 @@ angular.module('moviesowlApp')
         function buyTickets() {
             var url = $scope.session.tickets_url;
             url = url.replace('&bookingSource=www|sessions', '');
-            window.open(url, '_blank', 'location=yes');
+            var ref = window.open(url, '_blank', 'location=yes');
+            ref.executeScript('js/cinema-inject.js', function() {
+                console.log('script injected');
+            });
         }
 
         function buyTelstraTickets() {

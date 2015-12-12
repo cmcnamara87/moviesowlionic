@@ -48,6 +48,10 @@
             "filename": "js/autoupdate.service.js",
             "version": "95dbc8658969a04423844c232bb65dd6181bcc3b038988f824e19c3b622ffef8"
         },
+        "js_cinema-inject.js": {
+            "filename": "js/cinema-inject.js",
+            "version": "6b9b4e437c44772793bf15314752dcdba488bcb4ba9a843eb6663300ff5f8b27"
+        },
         "js_cinemas.js": {
             "filename": "js/cinemas.js",
             "version": "f6523075ee0ca4f4d131e490b6bd859905ef22e468a44de29e0c06d05a20888e"
@@ -74,7 +78,7 @@
         },
         "js_seats.js": {
             "filename": "js/seats.js",
-            "version": "65debb316398510b5e9731343d8427633cd21bba51a20469aa71b8eaf1703fb0"
+            "version": "0e1af44469dd68e0e8937aadda0467a489bf47098c34f4e6299ae8757c2f69c9"
         },
         "js_selectedmovieservice.js": {
             "filename": "js/selectedmovieservice.js",
@@ -106,6 +110,7 @@
         "js/configuration.js",
         "js/app.js",
         "js/autoupdate.service.js",
+        "js/cinema-inject.js",
         "js/cinemas.js",
         "js/cinemaslist.js",
         "js/cities.js",
