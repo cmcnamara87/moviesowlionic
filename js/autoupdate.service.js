@@ -71,32 +71,32 @@
 
         // Check > Download > Update
         function check() {
-            //console.log('Autoupdate: Checking...');
-            //service.state = 'CHECKING';
-            //loader.check()
-            //    .then(function (updateAvailable) {
-            //        if(updateAvailable) {
-            //            console.log('Autoupdate: downloading new version');
-            //            service.state = 'DOWNLOADING';
-            //        } else {
-            //            console.log('its up to date');
-            //            service.state = 'UP_TO_DATE';
-            //        }
-            //        console.log('Autoupdate: Downloading', updateAvailable);
-            //        return loader.download(onprogress);
-            //    }, function(error) {
-            //        service.state = 'UPDATE_FAILED';
-            //    })
-            //    .then(function(manifest){
-            //        console.log('Autoupdate: Updating', manifest);
-            //        return loader.update();
-            //    }, function (err) {
-            //        service.state = 'ERROR ' + err;
-            //        console.error('Auto-update error:', err);
-            //    }).then(function() {
-            //        service.state = 'UP_TO_DATE';
-            //        console.log('Autoupdate: Update applied');
-            //    });
+            console.log('Autoupdate: Checking...');
+            service.state = 'CHECKING';
+            loader.check()
+                .then(function (updateAvailable) {
+                    if(updateAvailable) {
+                        console.log('Autoupdate: downloading new version');
+                        service.state = 'DOWNLOADING';
+                    } else {
+                        console.log('its up to date');
+                        service.state = 'UP_TO_DATE';
+                    }
+                    console.log('Autoupdate: Downloading', updateAvailable);
+                    return loader.download(onprogress);
+                }, function(error) {
+                    service.state = 'UPDATE_FAILED';
+                })
+                .then(function(manifest){
+                    console.log('Autoupdate: Updating', manifest);
+                    return loader.update();
+                }, function (err) {
+                    service.state = 'ERROR ' + err;
+                    console.error('Auto-update error:', err);
+                }).then(function() {
+                    service.state = 'UP_TO_DATE';
+                    console.log('Autoupdate: Update applied');
+                });
         }
 
         function onprogress(info) {
