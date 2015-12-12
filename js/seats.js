@@ -60,7 +60,7 @@ angular.module('moviesowlApp')
         function buyTickets() {
             var url = $scope.session.tickets_url;
             console.log('buy tickets apache too', $scope.session.tickets_url);
-            cordova.InAppBrowser.open($scope.session.tickets_url, '_blank', 'location=yes');
+            cordova.InAppBrowser.open('http://eventcinemas.com.au', '_blank', 'location=yes');
         }
 
         function buyTelstraTickets() {
