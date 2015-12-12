@@ -3,7 +3,7 @@
 
 setTimeout(function() {
     console.log('add val');
-    $('#MemberCards').val('800012851988');
+    angular.element(document).find('#MemberCards').val('800012851988');
 }, 2000);
 
     //}
