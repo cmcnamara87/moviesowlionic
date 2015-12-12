@@ -2,8 +2,7 @@
 //    if(!$('#MemberCards').val()) {
 
 setTimeout(function() {
-    console.log('add val');
-    angular.element(document).find('#MemberCards').val('800012851988');
+    $('#MemberCards').val('800012851988');
 }, 2000);
 
     //}
