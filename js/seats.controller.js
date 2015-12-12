@@ -57,7 +57,6 @@ angular.module('moviesowlApp')
         }
 
         function buyTickets() {
-
             var url = $scope.session.tickets_url;
             console.log(url);
             window.open(url);

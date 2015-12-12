@@ -24,13 +24,17 @@
             </div>
         </div>
         <div class="padding" ng-show="seatingPlan">
-            <button class="button button-block button-positive" ng-click="buyTickets()">
+            <a class="button button-block button-positive"
+               ng-href="{{ session.tickets_url }}"
+               target="_blank">
                 Buy Tickets
-            </button>
-            <button class="button button-block button-positive" ng-click="buyTelstraTickets()">
+            </a>
+            <a class="button button-block button-positive"
+               ng-href="https://www.my.telstra.com.au/myaccount/home?goto=https%3A%2F%2Fwww.my.telstra.com.au%2Fmyaccount%2Floyalty-offers-consumer"
+               target="_blank">
                 Buy Telstra Tickets ($11)
-            </button>
-            <p style="color:white;">
+            </a>
+            <p style="color:white;text-align: center">
                 This is available only to Telstra customers.
             </p>
         </div>

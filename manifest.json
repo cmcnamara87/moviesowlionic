@@ -34,7 +34,7 @@
         },
         "js_templates.js": {
             "filename": "js/templates.js",
-            "version": "2f3a348b5c518b3d6dfe07ede940c29a6030a0411de3ed262a1b015c1a1c167a"
+            "version": "f17f6f33b10a2ec090c2b3e8c400f2b6dff898e5ba90556fb955a18ca0d9a373"
         },
         "js_configuration.js": {
             "filename": "js/configuration.js",
@@ -72,9 +72,9 @@
             "filename": "js/movies.controller.js",
             "version": "8a60580de253d87786b0c57a39553e4768572ff019a9401cc13205c64271c3cd"
         },
-        "js_seats.js": {
-            "filename": "js/seats.js",
-            "version": "2a3e98d0181d25d0f4035a3c9e77abc23140ed4d8a7541f782e8b0009e378b2b"
+        "js_seats.controller.js": {
+            "filename": "js/seats.controller.js",
+            "version": "568aa96fc385322e4c57cf31094a79ce5b4508391476bca3a059853087714626"
         },
         "js_selectedmovieservice.js": {
             "filename": "js/selectedmovieservice.js",
@@ -112,7 +112,7 @@
         "js/controllers.js",
         "js/craigalytics.service.js",
         "js/movies.controller.js",
-        "js/seats.js",
+        "js/seats.controller.js",
         "js/selectedmovieservice.js",
         "js/services.js",
         "js/showings.js",
