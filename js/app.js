@@ -11,6 +11,7 @@ angular.module('moviesowlApp', ['ionic', 'config', 'templates'])
 
         autoupdate.bootstrapOk();
 
+        console.log('NEW VERSION!!');
         // Globals
         $rootScope.ENV = ENV;
 
