@@ -63,7 +63,8 @@ angular.module('moviesowlApp')
         }
 
         function buyTelstraTickets() {
-            var url = 'https://www.my.telstra.com.au/myaccount/home?goto=https%3A%2F%2Fwww.my.telstra.com.au%2Fmyaccount%2Floyalty-offers-consumer';
-            window.open(url, '_blank');
+            cordova.InAppBrowser.open('http://apache.org', '_blank', 'location=yes');
+            //var url = 'https://www.my.telstra.com.au/myaccount/home?goto=https%3A%2F%2Fwww.my.telstra.com.au%2Fmyaccount%2Floyalty-offers-consumer';
+            //window.open(url, '_blank');
         }
     });

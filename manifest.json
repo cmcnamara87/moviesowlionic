@@ -34,7 +34,7 @@
         },
         "js_templates.js": {
             "filename": "js/templates.js",
-            "version": "6dbdcb80f077a2c4b653e3da957938f8942c00aab4dcc7339f0f3e26a681ba36"
+            "version": "5be94690c951f841e2ce0952e8582b51859ac7fa19026de0117011549b81e235"
         },
         "js_configuration.js": {
             "filename": "js/configuration.js",
@@ -74,7 +74,7 @@
         },
         "js_seats.js": {
             "filename": "js/seats.js",
-            "version": "878331a72eb24a13d7d59b75e660efd7967a6c54b1270ee95cbbc3d7786d8642"
+            "version": "a3417ab785435ba10ac4e8c0dbd52f47261608ed919eccf6116cedc86a4f6c25"
         },
         "js_selectedmovieservice.js": {
             "filename": "js/selectedmovieservice.js",
