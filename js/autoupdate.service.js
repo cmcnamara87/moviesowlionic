@@ -5,7 +5,10 @@
         .factory('autoupdate', autoupdate);
 
     /* @ngInject */
-    function autoupdate($q, $rootScope) {
+    function autoupdate($q) {
+
+        // App loaded
+        window.BOOTSTRAP_OK = true;
 
         var service = {
             state: 'UP_TO_DATE',

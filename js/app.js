@@ -1,123 +1,119 @@
-'use strict';
-
-//ga('send', 'pageview', {'page': '/my/phone'});
-
-
 // Ionic Starter App
 
 // angular.module is a global place for creating, registering and retrieving Angular modules
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
-angular.module('moviesowlApp', ['ionic',
-    'config',
-    'angulartics',
-    'angulartics.google.analytics',
-    'angularMoment',
-    'ion-sticky',
-    'ngIOS9UIWebViewPatch',
-    'templates'
-])
+// 'starter.services' is found in services.js
+// 'starter.controllers' is found in controllers.js
+angular.module('moviesowlApp', ['ionic', 'config', 'templates'])
 
-.run(function($ionicPlatform, amMoment, $rootScope, ENV, $document, $http, craigalytics, autoupdate) {
-    amMoment.changeLocale('en');
-    window.BOOTSTRAP_OK = true;
-    $rootScope.ENV = ENV;
+    .run(function ($ionicPlatform, ENV, $rootScope) {
 
+        // Globals
+        $rootScope.ENV = ENV;
 
-        $rootScope.autoupdate = autoupdate;
-    console.log(ENV);
+        $ionicPlatform.ready(function () {
+            // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
+            // for form inputs)
+            if (window.cordova && window.cordova.plugins && window.cordova.plugins.Keyboard) {
+                cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
+                cordova.plugins.Keyboard.disableScroll(true);
 
-    craigalytics.register().then(function() {
-        craigalytics.send('APP_OPENED');
-    });
-
-    $ionicPlatform.ready(function() {
-        if (window.cordova) {
-            window.open = cordova.InAppBrowser.open;
-        }
-
-        if (navigator.splashscreen) {
-            setTimeout(function() {
-                navigator.splashscreen.hide();
-            }, 100);
-        }
-
-        // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
-        // for form inputs)
-        if (window.cordova && window.cordova.plugins.Keyboard) {
-            cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
-        }
-        if (window.StatusBar) {
-            StatusBar.styleDefault();
-            //console.log('statusbar', StatusBar);
-            //StatusBar.overlaysWebView(true);
-            //StatusBar.style(1); //Light
-        }
-        $rootScope.$on('$stateChangeStart', function(event, toState) {
-            if (toState.changeColor) {
-                $rootScope.changeColor = true;
-            } else {
-                $rootScope.changeColor = false;
+            }
+            if (window.StatusBar) {
+                // org.apache.cordova.statusbar required
+                StatusBar.styleDefault();
             }
         });
-        //$rootScope.$on('$stateChangeSuccess', function (evt, toState) {
-        //    console.log('stateChangeSuccess');
-        //    if (toState.changeColor) {
-        //        $rootScope.changeColor = true;
-        //    } else {
-        //        $rootScope.changeColor = false;
-        //    }
-        //});
+    })
+
+    .config(function ($stateProvider, $urlRouterProvider) {
+
+        // Ionic uses AngularUI Router which uses the concept of states
+        // Learn more here: https://github.com/angular-ui/ui-router
+        // Set up the various states which the app can be in.
+        // Each state's controller can be found in controllers.js
+        $stateProvider
+
+            // setup an abstract state for the tabs directive
+            .state('tab', {
+                url: '/tab',
+                abstract: true,
+                templateUrl: 'templates/tabs.html'
+            })
+
+            // Each tab has its own nav history stack:
+            .state('cities', {
+                url: '/cities',
+                templateUrl: 'templates/cities.html',
+                controller: 'CitiesController'
+            })
+            .state('cinemas', {
+                url: '/cinemas?city',
+                templateUrl: 'templates/cinemas-page.html',
+                controller: 'CinemasController'
+            })
+            .state('movies', {
+                parent: 'tab',
+                url: '/movies',
+                views: {
+                    'tab-movies': {
+                        templateUrl: 'templates/tab-movies.html',
+                        controller: 'MoviesController'
+                    }
+                }
+            })
+            .state('showings', {
+                parent: 'tab',
+                url: '/movies/:movieId',
+                views: {
+                    'tab-movies': {
+                        templateUrl: 'templates/showings.html',
+                        controller: 'ShowingsCtrl'
+                    }
+                }
+            })
+            .state('seats', {
+                parent: 'tab',
+                url: '/seats/:showId',
+                views: {
+                    'tab-movies': {
+                        templateUrl: 'templates/seats.html',
+                        controller: 'SeatsCtrl'
+                    }
+                }
+            })
+
+            .state('tab.chats', {
+                url: '/chats',
+                views: {
+                    'tab-chats': {
+                        templateUrl: 'templates/tab-chats.html',
+                        controller: 'ChatsCtrl'
+                    }
+                }
+            })
+            .state('tab.chat-detail', {
+                url: '/chats/:chatId',
+                views: {
+                    'tab-chats': {
+                        templateUrl: 'templates/chat-detail.html',
+                        controller: 'ChatDetailCtrl'
+                    }
+                }
+            })
+
+            .state('tab.account', {
+                url: '/account',
+                views: {
+                    'tab-account': {
+                        templateUrl: 'templates/tab-account.html',
+                        controller: 'AccountCtrl'
+                    }
+                }
+            });
+
+        // if none of the above states are matched, use this as the fallback
+        $urlRouterProvider.otherwise('/tab/movies');
+
     });
-
-
-})
-
-.config(function($stateProvider, $urlRouterProvider) {
-    console.log('Config running, adding routes!');
-    $urlRouterProvider.otherwise('/movies');
-    $stateProvider
-    // .state('cinemas', {
-    //     url: '/cinemas',
-    //     templateUrl: 'templates/cinemas.html',
-    //     controller: 'CinemasCtrl'
-    // })
-        .state('cities', {
-            url: '/cities',
-            templateUrl: 'templates/cities.html',
-            controller: 'CitiesController'
-        })
-        .state('cinemas', {
-            url: '/cinemas?city',
-            templateUrl: 'templates/cinemas-page.html',
-            controller: 'CinemasController'
-        })
-        .state('movies', {
-            url: '/movies',
-            templateUrl: 'templates/movies.html',
-            controller: 'MoviesCtrl'
-        })
-        .state('movie', {
-            url: '/movie/:movieId',
-            templateUrl: 'templates/movieDetails.html',
-            controller: 'MovieDetailsCtrl'
-        })
-        .state('showings', {
-            url: '/showings/:movieId',
-            templateUrl: 'templates/showings.html',
-            controller: 'ShowingsCtrl',
-            changeColor: true
-        })
-        .state('seats', {
-            url: '/seats/:showId',
-            templateUrl: 'templates/seats.html',
-            controller: 'SeatsCtrl'
-        });
-});
-
-setTimeout(function() {
-    angular.element(document).ready(function() {
-        console.log('bootstrapping now');
-        angular.bootstrap(document, ['moviesowlApp']);
-    });
-}, 2000);
