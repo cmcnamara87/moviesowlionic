@@ -53,7 +53,7 @@ angular.module('moviesowlApp')
         function buyTickets() {
             var url = $scope.session.tickets_url;
             url = url.replace('&bookingSource=www|sessions', '');
-            window.open('http://eventcinemas.com.au', '_blank', 'location=yes');
+            window.open(url, '_blank', 'location=yes');
         }
 
         function buyTelstraTickets() {
