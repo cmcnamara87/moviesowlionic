@@ -53,10 +53,10 @@ angular.module('moviesowlApp')
         function buyTickets() {
             var url = $scope.session.tickets_url;
             url = url.replace('&bookingSource=www|sessions', '');
-            var ref = window.open(url, '_blank', 'location=yes');
+            var ref = cordova.InAppBrowser.open(url, '_blank', 'location=yes');
             ref.addEventListener('loadstop', function() {
                 console.log('load stop reached');
-                ref.executeScript({file: "js/cinema-inject.js"});
+                ref.executeScript({code: "setTimeout(function() {$('#MemberCards').val('800012851988');}, 2000);"});
             });
         }
 
