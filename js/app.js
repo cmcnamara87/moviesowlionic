@@ -7,7 +7,9 @@
 // 'starter.controllers' is found in controllers.js
 angular.module('moviesowlApp', ['ionic', 'config', 'templates'])
 
-    .run(function ($ionicPlatform, ENV, $rootScope) {
+    .run(function ($ionicPlatform, ENV, $rootScope, autoupdate) {
+
+        autoupdate.bootstrapOk();
 
         // Globals
         $rootScope.ENV = ENV;

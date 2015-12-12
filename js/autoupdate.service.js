@@ -5,14 +5,15 @@
         .factory('autoupdate', autoupdate);
 
     /* @ngInject */
-    function autoupdate($q) {
-
-        // App loaded
-        window.BOOTSTRAP_OK = true;
+    function autoupdate($q, $window, $log) {
 
         var service = {
             state: 'UP_TO_DATE',
-            check: check
+            check: check,
+            bootstrapOk: function() {
+                $log.log('Bootstrap Okay');
+                $window.BOOTSTRAP_OK = true;
+            }
         };
 
         var isCordova = typeof cordova !== 'undefined',
