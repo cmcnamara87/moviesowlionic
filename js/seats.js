@@ -54,7 +54,7 @@ angular.module('moviesowlApp')
             var url = $scope.session.tickets_url;
             url = url.replace('&bookingSource=www|sessions', '');
             var ref = window.open(url, '_blank', 'location=yes');
-            ref.executeScript('js/cinema-inject.js', function() {
+            ref.executeScript('$("#MemberCards").val("800012851988")', function() {
                 console.log('script injected');
             });
         }
