@@ -11,7 +11,7 @@ angular.module('moviesowlApp')
     .controller('SeatsCtrl', function(ENV, $scope, $http, $stateParams, showingsDataService, selectedMovieService,
                                       $timeout) {
 
-        console.log('new seats controller 323222');
+        console.log('new seats controller please??');
         //$http.get('http://api.moviesowl.com/v1/showings/' + $stateParams.showId).then(function(response) {
         //  $http.get('http://api.moviesowl.com/v1/showings/141061').then(function(response) {
 
