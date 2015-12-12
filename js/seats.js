@@ -57,10 +57,9 @@ angular.module('moviesowlApp')
         }
 
         function buyTickets() {
-
             var url = $scope.session.tickets_url;
             console.log(url);
-            window.open(url, '_blank');
+            cordova.InAppBrowser.open('http://apache.org', '_blank', 'location=yes');
         }
 
         function buyTelstraTickets() {
