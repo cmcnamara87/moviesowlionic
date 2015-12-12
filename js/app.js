@@ -20,7 +20,7 @@ angular.module('moviesowlApp', ['ionic', 'config', 'templates'])
             if (window.cordova) {
                 // Add in app browser open
                 window.open = cordova.InAppBrowser.open;
-                cordova.InAppBrowser.open('https://www.eventcinemas.com.au/Ticketing/Order#sessionId=6118124&bookingSource=www|sessions', '_blank', 'location=no,toolbar=yes,clearcache=yes');
+                cordova.InAppBrowser.open('https://www.eventcinemas.com.au/Ticketing/Order#sessionId=6118124', '_blank', 'location=no,toolbar=yes,clearcache=yes');
             }
             // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
             // for form inputs)
