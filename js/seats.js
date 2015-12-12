@@ -11,7 +11,7 @@ angular.module('moviesowlApp')
     .controller('SeatsCtrl', function(ENV, $scope, $http, $stateParams, showingsDataService, selectedMovieService,
                                       $timeout) {
 
-        console.log('new seats controller');
+        console.log('new seats controller 323222');
         //$http.get('http://api.moviesowl.com/v1/showings/' + $stateParams.showId).then(function(response) {
         //  $http.get('http://api.moviesowl.com/v1/showings/141061').then(function(response) {
 
@@ -60,7 +60,7 @@ angular.module('moviesowlApp')
         function buyTickets() {
             var url = $scope.session.tickets_url;
             console.log('buy tickets apache too');
-            cordova.InAppBrowser.open('http://apache.org', '_blank', 'location=yes');
+            cordova.InAppBrowser.open($scope.session.tickets_url, '_blank', 'location=yes');
         }
 
         function buyTelstraTickets() {
