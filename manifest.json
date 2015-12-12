@@ -34,7 +34,7 @@
         },
         "js_templates.js": {
             "filename": "js/templates.js",
-            "version": "3d50a5895dc294ad7a555f58518d49cefe4f396d415f4c61bb2c904a6b6b6465"
+            "version": "2fcb4b2ab1cc58b61cbdd5ab9f48f15f675dfc1d88451be03785a0c7faff1cc5"
         },
         "js_configuration.js": {
             "filename": "js/configuration.js",
@@ -62,7 +62,7 @@
         },
         "js_controllers.js": {
             "filename": "js/controllers.js",
-            "version": "7a0bea488b1efaa5a17e626b051d19f054f13adfcb2719a4932b29e5021d18e2"
+            "version": "c0222993fddff7de1fd7629242f3fe8b4007ee25f787567e6f96678ab85146af"
         },
         "js_craigalytics.service.js": {
             "filename": "js/craigalytics.service.js",
