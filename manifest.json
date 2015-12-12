@@ -42,7 +42,7 @@
         },
         "js_app.js": {
             "filename": "js/app.js",
-            "version": "0bbf6053494aa5151df3be4b5d0b087195705386473f59039ed35b7594bb736c"
+            "version": "be80905a26fcdf3df00ea102cd0df470b56efee2099122a938f63d20fe3ba3d8"
         },
         "js_autoupdate.service.js": {
             "filename": "js/autoupdate.service.js",
@@ -74,7 +74,7 @@
         },
         "js_seats.js": {
             "filename": "js/seats.js",
-            "version": "cd846115fdd03b517c4f4e14035b7f4327a3d63c625968e41f99029568054755"
+            "version": "db5cb996513bd2641d4cfd0314a0d0c1ebac84b82f43f56711b0d0929b2d3256"
         },
         "js_selectedmovieservice.js": {
             "filename": "js/selectedmovieservice.js",
