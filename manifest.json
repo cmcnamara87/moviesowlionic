@@ -1,12 +1,12 @@
 {
     "files": {
-        "css_ionic.app.css": {
-            "filename": "css/ionic.app.css",
-            "version": "12c77e6bf4cc07fc001e92493ff3ab32277813073c39f7a251bf9707a6bf864c"
-        },
         "lib_ionic_js_ionic.bundle.js": {
             "filename": "lib/ionic/js/ionic.bundle.js",
             "version": "2a6430b20dc9ce78b5595607cc571456ba3a5d13897ffe7e051f1f80a6db6f4c"
+        },
+        "css_ionic.app.css": {
+            "filename": "css/ionic.app.css",
+            "version": "12c77e6bf4cc07fc001e92493ff3ab32277813073c39f7a251bf9707a6bf864c"
         },
         "lib_ionic_fonts_ionicons.eot": {
             "filename": "lib/ionic/fonts/ionicons.eot",
@@ -46,7 +46,7 @@
         },
         "js_autoupdate.service.js": {
             "filename": "js/autoupdate.service.js",
-            "version": "95dbc8658969a04423844c232bb65dd6181bcc3b038988f824e19c3b622ffef8"
+            "version": "217874aca9b7c2314f712c1931d0b408bc0b723f8f49b1ddc020b758752861f8"
         },
         "js_cinemas.js": {
             "filename": "js/cinemas.js",
@@ -72,9 +72,9 @@
             "filename": "js/movies.controller.js",
             "version": "8a60580de253d87786b0c57a39553e4768572ff019a9401cc13205c64271c3cd"
         },
-        "js_seats.controller.js": {
-            "filename": "js/seats.controller.js",
-            "version": "a7322174753d925d51bde646dea2c6b49e76c1ce6eb53cbc9859dce4c5cf1be3"
+        "js_seats.js": {
+            "filename": "js/seats.js",
+            "version": "2a3e98d0181d25d0f4035a3c9e77abc23140ed4d8a7541f782e8b0009e378b2b"
         },
         "js_selectedmovieservice.js": {
             "filename": "js/selectedmovieservice.js",
@@ -94,8 +94,8 @@
         }
     },
     "load": [
-        "css/ionic.app.css",
         "lib/ionic/js/ionic.bundle.js",
+        "css/ionic.app.css",
         "lib/ionic/fonts/ionicons.eot",
         "lib/ionic/fonts/ionicons.svg",
         "lib/ionic/fonts/ionicons.ttf",
@@ -112,7 +112,7 @@
         "js/controllers.js",
         "js/craigalytics.service.js",
         "js/movies.controller.js",
-        "js/seats.controller.js",
+        "js/seats.js",
         "js/selectedmovieservice.js",
         "js/services.js",
         "js/showings.js",
