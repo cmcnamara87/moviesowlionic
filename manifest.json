@@ -8,6 +8,22 @@
             "filename": "css/ionic.app.css",
             "version": "12c77e6bf4cc07fc001e92493ff3ab32277813073c39f7a251bf9707a6bf864c"
         },
+        "lib_ionic_fonts_ionicons.eot": {
+            "filename": "lib/ionic/fonts/ionicons.eot",
+            "version": "a4803d7bdeb478a5b9238fe74d8aaa98dafe2e8e68fccbd0e3f4dced823f27f0"
+        },
+        "lib_ionic_fonts_ionicons.svg": {
+            "filename": "lib/ionic/fonts/ionicons.svg",
+            "version": "a627d9068c1235d9b3c95c405eb6ecb64a290b159cf5e926c0d96d89b24cd5fc"
+        },
+        "lib_ionic_fonts_ionicons.ttf": {
+            "filename": "lib/ionic/fonts/ionicons.ttf",
+            "version": "2ba7f20b1d8990e17a47fe3d88e4c766628aaa2baf1dd30fca0a0db59836f5f9"
+        },
+        "lib_ionic_fonts_ionicons.woff": {
+            "filename": "lib/ionic/fonts/ionicons.woff",
+            "version": "709f2789daaff440820ebb975d3ae409af45121bdec47e39e83523490b1bc0fc"
+        },
         "lib_lodash_lodash.js": {
             "filename": "lib/lodash/lodash.js",
             "version": "31ef498e961eaee57b5458cf0b6929da737338eb37a371f0fa720e7ba15db0fb"
@@ -80,6 +96,10 @@
     "load": [
         "lib/ionic/js/ionic.bundle.js",
         "css/ionic.app.css",
+        "lib/ionic/fonts/ionicons.eot",
+        "lib/ionic/fonts/ionicons.svg",
+        "lib/ionic/fonts/ionicons.ttf",
+        "lib/ionic/fonts/ionicons.woff",
         "lib/lodash/lodash.js",
         "js/cordova-app-loader-complete.js",
         "js/templates.js",
