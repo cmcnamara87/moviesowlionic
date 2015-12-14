@@ -6,7 +6,7 @@
         },
         "css_ionic.app.css": {
             "filename": "css/ionic.app.css",
-            "version": "12c77e6bf4cc07fc001e92493ff3ab32277813073c39f7a251bf9707a6bf864c"
+            "version": "4940e9cbcae990af260cb01c6ec89d5f4121092e5b57e6e1336645565a8637d5"
         },
         "lib_ionic_fonts_ionicons.eot": {
             "filename": "lib/ionic/fonts/ionicons.eot",
@@ -28,13 +28,25 @@
             "filename": "lib/lodash/lodash.js",
             "version": "31ef498e961eaee57b5458cf0b6929da737338eb37a371f0fa720e7ba15db0fb"
         },
+        "lib_angular_angular.js": {
+            "filename": "lib/angular/angular.js",
+            "version": "9a30224971ba19d73b34a1de0ffff57fa3561367f477fe81d62a17ce4b12a5aa"
+        },
+        "lib_moment_moment.js": {
+            "filename": "lib/moment/moment.js",
+            "version": "330b77f348bc97849800b9f3af7d1fe52fb6e145525ad494149d7a202c0c3cbf"
+        },
+        "lib_angular-moment_angular-moment.js": {
+            "filename": "lib/angular-moment/angular-moment.js",
+            "version": "44c05e91c516897260bd895e828f1349614d4d3ce6ad14ad976d7f461a4fc176"
+        },
         "js_cordova-app-loader-complete.js": {
             "filename": "js/cordova-app-loader-complete.js",
             "version": "76299c410fab485ec88d1e8765d935320fe4d172897d5f675fa410d66bd3f107"
         },
         "js_templates.js": {
             "filename": "js/templates.js",
-            "version": "435019a24bc22569085263c218c679e75b9f4ddfcd570a7e3a7b38cea7112b64"
+            "version": "91673a1b757c8ba944e4eddf1345e59e66f5f4fd1f2320af23d1d0e4a0f5d3e4"
         },
         "js_configuration.js": {
             "filename": "js/configuration.js",
@@ -42,7 +54,7 @@
         },
         "js_app.js": {
             "filename": "js/app.js",
-            "version": "f17ab660c845313757d663a520c72fdf4f226b1664dec55ce4f915445892e59b"
+            "version": "ea7ca8854e79efe27dff61bb138cd18e63936d6c77077ed771939f4529052a0b"
         },
         "js_account.controller.js": {
             "filename": "js/account.controller.js",
@@ -50,7 +62,7 @@
         },
         "js_autoupdate.service.js": {
             "filename": "js/autoupdate.service.js",
-            "version": "95dbc8658969a04423844c232bb65dd6181bcc3b038988f824e19c3b622ffef8"
+            "version": "3667f3d1d91255ac43941fbb3e2f6783f82a866b0866078020a10815a795280c"
         },
         "js_cinemas.js": {
             "filename": "js/cinemas.js",
@@ -105,6 +117,9 @@
         "lib/ionic/fonts/ionicons.ttf",
         "lib/ionic/fonts/ionicons.woff",
         "lib/lodash/lodash.js",
+        "lib/angular/angular.js",
+        "lib/moment/moment.js",
+        "lib/angular-moment/angular-moment.js",
         "js/cordova-app-loader-complete.js",
         "js/templates.js",
         "js/configuration.js",
