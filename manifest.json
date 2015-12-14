@@ -34,7 +34,7 @@
         },
         "js_templates.js": {
             "filename": "js/templates.js",
-            "version": "5be94690c951f841e2ce0952e8582b51859ac7fa19026de0117011549b81e235"
+            "version": "435019a24bc22569085263c218c679e75b9f4ddfcd570a7e3a7b38cea7112b64"
         },
         "js_configuration.js": {
             "filename": "js/configuration.js",
@@ -42,7 +42,11 @@
         },
         "js_app.js": {
             "filename": "js/app.js",
-            "version": "be80905a26fcdf3df00ea102cd0df470b56efee2099122a938f63d20fe3ba3d8"
+            "version": "f17ab660c845313757d663a520c72fdf4f226b1664dec55ce4f915445892e59b"
+        },
+        "js_account.controller.js": {
+            "filename": "js/account.controller.js",
+            "version": "f4119c6c191d042f3c3cc0a1c62c13f80f96177672a97279b9f1a478f76a963a"
         },
         "js_autoupdate.service.js": {
             "filename": "js/autoupdate.service.js",
@@ -105,6 +109,7 @@
         "js/templates.js",
         "js/configuration.js",
         "js/app.js",
+        "js/account.controller.js",
         "js/autoupdate.service.js",
         "js/cinemas.js",
         "js/cinemaslist.js",
