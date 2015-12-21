@@ -36,6 +36,10 @@
             "filename": "lib/moment/moment.js",
             "version": "330b77f348bc97849800b9f3af7d1fe52fb6e145525ad494149d7a202c0c3cbf"
         },
+        "lib_ion-affix_ion-affix.js": {
+            "filename": "lib/ion-affix/ion-affix.js",
+            "version": "4a4359aaca0db754733fbd6cecfc4bde64ae4140732edb3f1e6378c510b18969"
+        },
         "lib_angular-moment_angular-moment.js": {
             "filename": "lib/angular-moment/angular-moment.js",
             "version": "44c05e91c516897260bd895e828f1349614d4d3ce6ad14ad976d7f461a4fc176"
@@ -119,6 +123,7 @@
         "lib/lodash/lodash.js",
         "lib/angular/angular.js",
         "lib/moment/moment.js",
+        "lib/ion-affix/ion-affix.js",
         "lib/angular-moment/angular-moment.js",
         "js/cordova-app-loader-complete.js",
         "js/templates.js",
