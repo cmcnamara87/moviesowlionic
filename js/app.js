@@ -9,7 +9,8 @@ angular.module('moviesowlApp', [
     'ionic',
     'config',
     'templates',
-    'angularMoment'])
+    'angularMoment',
+    'ion-affix'])
 
     .run(function ($ionicPlatform, ENV, $rootScope, autoupdate) {
 
