@@ -6,7 +6,7 @@
         .controller('AccountController', AccountController);
 
     /* @ngInject */
-    function AccountController($scope) {
+    function AccountController($scope, autoupdate) {
         /* jshint validthis: true */
         //var vm = this;
 
@@ -14,6 +14,12 @@
         //vm.title = 'Accounts';
 
         activate();
+
+        $scope.$on('$ionicView.enter', function(e) {
+            autoupdate.check();
+        });
+        $scope.autoupdate = autoupdate;
+
 
         ////////////////
 

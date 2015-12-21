@@ -46,7 +46,7 @@
         },
         "js_templates.js": {
             "filename": "js/templates.js",
-            "version": "98746ae3069c0c2075e7817fbf872900053bdb06e3753c451b2d18553f4585b0"
+            "version": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
         },
         "js_configuration.js": {
             "filename": "js/configuration.js",
@@ -58,7 +58,7 @@
         },
         "js_account.controller.js": {
             "filename": "js/account.controller.js",
-            "version": "f4119c6c191d042f3c3cc0a1c62c13f80f96177672a97279b9f1a478f76a963a"
+            "version": "4537d453e58a2b47bfeef6bea92afdacdba1ea67e1bcca413913af0f883b2525"
         },
         "js_autoupdate.service.js": {
             "filename": "js/autoupdate.service.js",
@@ -78,7 +78,7 @@
         },
         "js_controllers.js": {
             "filename": "js/controllers.js",
-            "version": "72e82ddad39b16b56ff231b52a21b932c316165f3f97d96b1890992eff538094"
+            "version": "b65739fe07e2a3fc21c97301acb1f029704f6a808a3fc836adb62c3239faff91"
         },
         "js_craigalytics.service.js": {
             "filename": "js/craigalytics.service.js",
