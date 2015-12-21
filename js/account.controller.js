@@ -28,9 +28,6 @@
                 $scope.cinemaLocation = 'No cinema';
             }
             var cinemaObj = angular.fromJson(localStorage.cinema);
-            if(cinemaObj.location === $scope.cinemaLocation && !force) {
-                return;
-            }
             $scope.cinemaLocation = cinemaObj.location;
         }
     }
