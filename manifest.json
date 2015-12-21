@@ -46,7 +46,7 @@
         },
         "js_templates.js": {
             "filename": "js/templates.js",
-            "version": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            "version": "d64112f0d4b7f022ebf9def080a756b9fc9a2fbb20125f54fc9eda2181f2d230"
         },
         "js_configuration.js": {
             "filename": "js/configuration.js",
@@ -62,7 +62,7 @@
         },
         "js_autoupdate.service.js": {
             "filename": "js/autoupdate.service.js",
-            "version": "3667f3d1d91255ac43941fbb3e2f6783f82a866b0866078020a10815a795280c"
+            "version": "f7df3ebb3c73291ad82791d2006d4b6b3c4cd7362166059010a7cef0179e0563"
         },
         "js_cinemas.js": {
             "filename": "js/cinemas.js",
