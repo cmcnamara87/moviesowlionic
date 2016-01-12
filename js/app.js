@@ -22,7 +22,7 @@ angular.module('moviesowlApp', [
 
         // Check for updates
         autoupdate.bootstrapOk();
-        
+
         // Globals
         $rootScope.ENV = ENV;
 
