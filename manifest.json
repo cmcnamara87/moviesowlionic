@@ -76,9 +76,9 @@
             "filename": "js/cities.js",
             "version": "67daeb7b88771440439d1d1ba0163dc51686aeb3a022b64b105235af49b7660e"
         },
-        "js_config-prod.js": {
-            "filename": "js/config-prod.js",
-            "version": "3697f72649ebaabffd64b1f7d56045a6a1dc570d37faabe3e18fbfa9d4ac4c9f"
+        "js_config-dev.js": {
+            "filename": "js/config-dev.js",
+            "version": "688272adf7c501d60757a40e4d23eca5971d03edb1ae7453c9a3ae60dfc54ffe"
         },
         "js_craigalytics.service.js": {
             "filename": "js/craigalytics.service.js",
@@ -94,7 +94,7 @@
         },
         "js_seats.js": {
             "filename": "js/seats.js",
-            "version": "0a040e0a30aee8afccea098fdc16290df418397d25051ef891c7bb3e08ec8c6f"
+            "version": "ea247d6ef56178539ad2e4aec3eef3159537394875a1b4b41bb6e3cf3890bf6f"
         },
         "js_selectedmovieservice.js": {
             "filename": "js/selectedmovieservice.js",
@@ -106,7 +106,7 @@
         },
         "js_showings.js": {
             "filename": "js/showings.js",
-            "version": "3a1fe3defd2a651989a4b8fbd1a3297866291cbaba6418e742171c5504e7edbc"
+            "version": "3ace320e1a5540dcc8714a234a89fa0b4710a5c6b242082091c407cdda4d6167"
         },
         "js_showingsdataservice.js": {
             "filename": "js/showingsdataservice.js",
@@ -133,7 +133,7 @@
         "js/cinemas.js",
         "js/cinemaslist.js",
         "js/cities.js",
-        "js/config-prod.js",
+        "js/config-dev.js",
         "js/craigalytics.service.js",
         "js/movies.controller.js",
         "js/news.controller.js",
