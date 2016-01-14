@@ -76,9 +76,9 @@
             "filename": "js/cities.js",
             "version": "67daeb7b88771440439d1d1ba0163dc51686aeb3a022b64b105235af49b7660e"
         },
-        "js_config-dev.js": {
-            "filename": "js/config-dev.js",
-            "version": "688272adf7c501d60757a40e4d23eca5971d03edb1ae7453c9a3ae60dfc54ffe"
+        "js_config-prod.js": {
+            "filename": "js/config-prod.js",
+            "version": "3697f72649ebaabffd64b1f7d56045a6a1dc570d37faabe3e18fbfa9d4ac4c9f"
         },
         "js_craigalytics.service.js": {
             "filename": "js/craigalytics.service.js",
@@ -133,7 +133,7 @@
         "js/cinemas.js",
         "js/cinemaslist.js",
         "js/cities.js",
-        "js/config-dev.js",
+        "js/config-prod.js",
         "js/craigalytics.service.js",
         "js/movies.controller.js",
         "js/news.controller.js",
