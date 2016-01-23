@@ -163,7 +163,9 @@ angular.module('moviesowlApp')
             });
         }
 
+    
         $scope.selectMovie = function(movie) {
+            
             selectedMovieService.setMovie(movie);
             $state.go('showings', {
                 movieId: movie.id
@@ -181,6 +183,7 @@ angular.module('moviesowlApp')
             var time = Math.round($scope.startingAfter.getTime() / 1000);
             loadMovies(true, time);
         }
+
 
         /**
          * Check if start time is < 1hr from now

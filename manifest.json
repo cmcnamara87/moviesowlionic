@@ -6,7 +6,7 @@
         },
         "css_ionic.app.css": {
             "filename": "css/ionic.app.css",
-            "version": "3f088ba2a155951c43c7080f61635e5dc11e58533b3755e72d50d0038457e05e"
+            "version": "fc101df70e0b8842286551d7da41b57502bda700fdd2455ef530443b0345e7af"
         },
         "lib_ionic_fonts_ionicons.eot": {
             "filename": "lib/ionic/fonts/ionicons.eot",
@@ -30,7 +30,7 @@
         },
         "lib_angular_angular.js": {
             "filename": "lib/angular/angular.js",
-            "version": "d86ff5ee1c68df0af8c05d3e4dcad4fe3439e3a573f52189ff06a3a99430dfc1"
+            "version": "9a30224971ba19d73b34a1de0ffff57fa3561367f477fe81d62a17ce4b12a5aa"
         },
         "lib_moment_moment.js": {
             "filename": "lib/moment/moment.js",
@@ -44,6 +44,38 @@
             "filename": "lib/afkl-lazy-image/release/lazy-image.js",
             "version": "28824607fe5176f7745b5727a813bfc7dc9f1554c407b55deba0fcbe2f92ba34"
         },
+        "lib_ng-mfb_src_mfb-directive.js": {
+            "filename": "lib/ng-mfb/src/mfb-directive.js",
+            "version": "95f54af2a3c257c1630d9252a39ca3df9c3f0c57c5635a14268896461a4a07ce"
+        },
+        "lib_ng-mfb_mfb_dist_mfb.css": {
+            "filename": "lib/ng-mfb/mfb/dist/mfb.css",
+            "version": "531c8f42cef1b6226e7f18fb142582db9dca41955271fc7b7ab1072ae1a682af"
+        },
+        "lib_ng-mfb_mfb_src_mfb.scss": {
+            "filename": "lib/ng-mfb/mfb/src/mfb.scss",
+            "version": "509982964aeb3f622417be0e4cb1b5b864fa068a155610fbe94d2f2c515b67f2"
+        },
+        "lib_ionicons_css_ionicons.css": {
+            "filename": "lib/ionicons/css/ionicons.css",
+            "version": "0f7fa0c3a244e21109f699c2b3e0609527d9db21b9805f8919d3c9fefd7cddfa"
+        },
+        "lib_ionicons_fonts_ionicons.eot": {
+            "filename": "lib/ionicons/fonts/ionicons.eot",
+            "version": "a4803d7bdeb478a5b9238fe74d8aaa98dafe2e8e68fccbd0e3f4dced823f27f0"
+        },
+        "lib_ionicons_fonts_ionicons.svg": {
+            "filename": "lib/ionicons/fonts/ionicons.svg",
+            "version": "a627d9068c1235d9b3c95c405eb6ecb64a290b159cf5e926c0d96d89b24cd5fc"
+        },
+        "lib_ionicons_fonts_ionicons.ttf": {
+            "filename": "lib/ionicons/fonts/ionicons.ttf",
+            "version": "2ba7f20b1d8990e17a47fe3d88e4c766628aaa2baf1dd30fca0a0db59836f5f9"
+        },
+        "lib_ionicons_fonts_ionicons.woff": {
+            "filename": "lib/ionicons/fonts/ionicons.woff",
+            "version": "709f2789daaff440820ebb975d3ae409af45121bdec47e39e83523490b1bc0fc"
+        },
         "lib_angular-moment_angular-moment.js": {
             "filename": "lib/angular-moment/angular-moment.js",
             "version": "44c05e91c516897260bd895e828f1349614d4d3ce6ad14ad976d7f461a4fc176"
@@ -54,11 +86,11 @@
         },
         "js_templates.js": {
             "filename": "js/templates.js",
-            "version": "8122079c324880a75b594cb364f63b98bc866d3aa08825f037329656de28eab4"
+            "version": "4209202ef207e97e3b7a113c25511c7a55da62faacfa55c16a8dc6bb38056939"
         },
         "js_app.js": {
             "filename": "js/app.js",
-            "version": "fcaee507f476143c7f986c6837ff4829025bd2d0ee2925b700d1d54abeee8fd6"
+            "version": "9ea8f6aa9ae4f018e8088964ff2340ef9a6b0e1e6610ad6f932706f6d56fa05d"
         },
         "js_account.controller.js": {
             "filename": "js/account.controller.js",
@@ -88,9 +120,13 @@
             "filename": "js/craigalytics.service.js",
             "version": "c6202f80fd847a2aeaeeb6a932ea9659a296fc7cb9ba18170eb7f216d34017f6"
         },
+        "js_moviedetails.controller.js": {
+            "filename": "js/moviedetails.controller.js",
+            "version": "43e1c46124962c9766c26c0427961e8990bd69dbea125c667bab9b4b1403b157"
+        },
         "js_movies.controller.js": {
             "filename": "js/movies.controller.js",
-            "version": "51ec203dc1ea0a39e92b65f93ae42e75c3fd04699ea9d21cefe6d62781a21d27"
+            "version": "99232905b0556f64c654631b64c965fb33f10125cdcb9761ecadf6a6c0819644"
         },
         "js_news.controller.js": {
             "filename": "js/news.controller.js",
@@ -110,7 +146,7 @@
         },
         "js_showings.js": {
             "filename": "js/showings.js",
-            "version": "3ace320e1a5540dcc8714a234a89fa0b4710a5c6b242082091c407cdda4d6167"
+            "version": "a6dc3c954670f13bab78f58fb15da158ec456a472c4a85982d500dc545da0f69"
         },
         "js_showingsdataservice.js": {
             "filename": "js/showingsdataservice.js",
@@ -129,6 +165,14 @@
         "lib/moment/moment.js",
         "lib/ion-affix/ion-affix.js",
         "lib/afkl-lazy-image/release/lazy-image.js",
+        "lib/ng-mfb/src/mfb-directive.js",
+        "lib/ng-mfb/mfb/dist/mfb.css",
+        "lib/ng-mfb/mfb/src/mfb.scss",
+        "lib/ionicons/css/ionicons.css",
+        "lib/ionicons/fonts/ionicons.eot",
+        "lib/ionicons/fonts/ionicons.svg",
+        "lib/ionicons/fonts/ionicons.ttf",
+        "lib/ionicons/fonts/ionicons.woff",
         "lib/angular-moment/angular-moment.js",
         "js/cordova-app-loader-complete.js",
         "js/templates.js",
@@ -140,6 +184,7 @@
         "js/cities.js",
         "js/config-prod.js",
         "js/craigalytics.service.js",
+        "js/moviedetails.controller.js",
         "js/movies.controller.js",
         "js/news.controller.js",
         "js/seats.js",
