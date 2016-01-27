@@ -8,7 +8,9 @@
     "lodash": "~3.10.1",
     "angular-moment": "~0.10.3",
     "ion-affix": "~1.0.1",
-    "afkl-lazy-image": "~0.2.3"
+    "afkl-lazy-image": "~0.2.3",
+    "ng-mfb": "~0.6.2",
+    "ionicons": "~2.0.1"
   },
   "resolutions": {
     "angular": "1.4.3",
