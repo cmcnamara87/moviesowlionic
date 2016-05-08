@@ -86,11 +86,11 @@
         },
         "js_templates.js": {
             "filename": "js/templates.js",
-            "version": "b298487cc8444ab7fecdf7501c0ca46bc24c2477254a5d6298a4b1748538e77e"
+            "version": "6e58babfdf2b64d3bba73e18f08504974ffcdea5fbf663b1dff3e2e6b7206ae0"
         },
         "js_app.js": {
             "filename": "js/app.js",
-            "version": "ed59f71a564924a61ac1abd5a248d2737fd8af32ad5000a536b2e9c9b7fac17d"
+            "version": "ced854dbbf97f5f6e23c47ce0feda6ba705c61f297d888528617039e57e52194"
         },
         "js_account.controller.js": {
             "filename": "js/account.controller.js",
@@ -102,7 +102,7 @@
         },
         "js_cinemas.js": {
             "filename": "js/cinemas.js",
-            "version": "f6523075ee0ca4f4d131e490b6bd859905ef22e468a44de29e0c06d05a20888e"
+            "version": "da66dd338aa13e5d6f1eacb2b17df769ded0760118de641e17e3874d97c46d10"
         },
         "js_cinemaslist.js": {
             "filename": "js/cinemaslist.js",
@@ -122,7 +122,7 @@
         },
         "js_favourites-show.controller.js": {
             "filename": "js/favourites-show.controller.js",
-            "version": "cd671e801c4e30e80de2632c79865754699468e8659cc9e22ad6c648b6d0aa11"
+            "version": "a58279e25884c6435e6811da7eac59bb4ee7e28115fe07ab9ecc476a95799148"
         },
         "js_moviedetails.controller.js": {
             "filename": "js/moviedetails.controller.js",
