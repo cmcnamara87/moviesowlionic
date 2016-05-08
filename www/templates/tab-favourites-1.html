@@ -1,6 +1,6 @@
 <ion-view>
     <ion-nav-title>
-        Cinemas
+        {{cinemaLocation}}
     </ion-nav-title>
     <ion-nav-buttons side="primary">
         <button class="button" ng-click="toggleViewMode()">
@@ -8,20 +8,15 @@
         </button>
     </ion-nav-buttons>
     <ion-nav-buttons side="secondary">
+        <button class="button" ui-sref="cities">
+            Cinemas
+        </button>
     </ion-nav-buttons>
     <ion-content overflow-scroll="false">
         <!-- Refresher -->
         <ion-refresher pulling-text="Pull to update movies." on-refresh="doRefresh()" spinner="bubbles">
         </ion-refresher>
         <!-- /Refresher -->
-
-        <div class="button-bar">
-            <a class="button button-dark" ng-class="{'active': vm.favouriteCinema.id === cinema.id }"
-               ng-repeat="cinema in favouriteCinemas"
-               ng-click="vm.changeCinema(cinema)">{{ cinema.location || 'My Favourite Cinema ' + ($index+1) }}</a>
-        </div>
-
-        <!-- movies -->
         <div ng-hide="hasNoMovies">
             <div ng-repeat="group in groups">
                 <ng-include src="'templates/includes/movie-group.html'"></ng-include>
@@ -29,18 +24,10 @@
         </div>
         <div class="item" ng-if="hasNoMovies" style="text-align: center">
             <h2>No more movies today</h2>
-
             <p style="margin-bottom: 10px;">Come back tomorrow</p>
-            <img src="img/no-movies-owl.png" alt="" style="max-width: 50%"/>
+            <img src="img/no-movies-owl.png" alt="" style="max-width: 50%" />
         </div>
         <div class="fixed-outside">
         </div>
-        <!-- /movies -->
-        <button class="button button-block" ng-class="{'button-dark': vm.favouriteCinema.id, 'button-energized': !vm.favouriteCinema.id}" ui-sref="cities">
-
-            <span ng-show="vm.favouriteCinema.id">Change Cinema</span>
-            <span ng-hide="vm.favouriteCinema.id">Setup a favourite Cinema</span>
-        </button>
-
     </ion-content>
 </ion-view>
