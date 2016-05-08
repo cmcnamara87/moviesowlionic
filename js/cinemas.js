@@ -6,7 +6,7 @@
         .controller('CinemasController', CinemasController);
 
     /* @ngInject */
-    function CinemasController($http, ENV, $scope, $state, $ionicHistory, $stateParams, $ionicViewSwitcher) {
+    function CinemasController($http, ENV, $rootScope, $scope, $state, $ionicHistory, $stateParams, $ionicViewSwitcher) {
         /* jshint validthis: true */
 
         activate();
@@ -16,8 +16,8 @@
 
         function activate() {
             if(localStorage.cinema) {
-                var cinemaObj = angular.fromJson(localStorage.cinema);
-                $scope.cinemaLocation = cinemaObj.location;
+                //var cinemaObj = angular.fromJson(localStorage.cinema);
+                //$scope.cinemaLocation = cinemaObj.location;
             }
 
             $http.get(ENV.apiEndpoint + 'cities/' + $stateParams.city + '/cinemas').then(function(response) {
@@ -26,7 +26,13 @@
         }
 
         function goToMovies(cinema) {
-            window.localStorage.cinema = angular.toJson(cinema);
+            _.assign($rootScope.favouriteCinema, cinema);
+            if($rootScope.favouriteCinemas.length < 3
+                && $rootScope.favouriteCinemas[$rootScope.favouriteCinemas.length - 1].id) {
+                $rootScope.favouriteCinemas.push({});
+            }
+            window.localStorage.favouriteCinemas = angular.toJson($rootScope.favouriteCinemas);
+
             $ionicViewSwitcher.nextDirection('back');
             $ionicHistory.nextViewOptions({
                 //disableAnimate: true,
